@@ -1,7 +1,10 @@
 #+OPTIONS: ':t date:nil num:nil toc:nil tags:nil 
 * Switch from code buffers to the corresponding REPL
-[[http:/stable.melpa.org/#/repl-toggle][file:http://stable.melpa.org/packages/repl-toggle-badge.svg]]
-[[http://melpa.org/#/repl-toggle][file:http://melpa.org/packages/repl-toggle-badge.svg]]
+
+#+BEGIN_EXPORT html
+<a href="https://melpa.org/#/repl-toggle"><img alt="MELPA" src="https://melpa.org/packages/repl-toggle-badge.svg"/></a>
+<a href="https://stable.melpa.org/#/repl-toggle"><img alt="MELPA Stable" src="https://stable.melpa.org/packages/repl-toggle-badge.svg"/></a>
+#+END_EXPORT
 
 This is a generalization of an idea by Mickey Petersen of
 masteringemacs fame:
