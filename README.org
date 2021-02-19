@@ -103,3 +103,7 @@ the current buffers major mode.
 
 If the custom variable =rtog/interactivep= is set to =t=, repl-commands 
 will be called interactively if possible.
+** Contributing
+
+My emacs packages are all part of the [[https://sr.ht/~tomterl/tomtel/][tomtel]] project.  Report bugs and
+ideas by [[https://todo.sr.ht/~tomterl/tomtel][opening tickets]] or [[https://lists.sr.ht/~tomterl/tomtel][writing to the mailing list]].
