@@ -1,6 +1,6 @@
 ;;; repl-toggle.el --- Switch to/from repl buffer for current major-mode
 
-;; Copyright (C) 2013 Tom Regner
+;; Copyright (C) 2013-2022 Tom Regner
 
 ;; Author: Tom Regner <tom@goochesa.de>
 ;; Maintainer: Tom Regner <tom@goochesa.de>
