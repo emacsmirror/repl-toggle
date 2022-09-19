@@ -209,7 +209,9 @@ Additional paramters passed will be IGNORED."
     (if (and --mode-cmd (functionp --mode-cmd))
         (progn 
           (if (and rtog/--repl-buffer (buffer-live-p rtog/--repl-buffer))
-              (funcall rtog/goto-buffer-fun rtog/--repl-buffer)
+              (progn
+                (funcall rtog/goto-buffer-fun rtog/--repl-buffer)
+                (setq rtog/--last-buffer (current-buffer)))
             (progn
               (if (and rtog/interactivep 
                        (commandp --mode-cmd))
